@@ -9,7 +9,7 @@ export default function App() {
   // ✅ ใช้ state แทนค่า static
   const [dronePose, setDronePose] = useState({
     position: { x: 0, y: 1.2, z: -3 },
-    rpyDeg: { roll: 10, pitch: -15, yaw: 40 }
+    rpyDeg: { roll: 0, pitch: -0, yaw: 0 }
   });
 
   // ✅ เพิ่มค่า x ทุก 50ms (ช้าสวย ๆ ลื่น ๆ)
